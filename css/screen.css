@@ -1,5 +1,5 @@
 body {
-    background: #79e4b7;
+    background: #76ee9a;
     text-align: center;
   }
   
@@ -14,7 +14,7 @@ body {
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    background-color: #C0C0C0;
+    background-color: #ffffff;
   }
   
   input[type=submit] {
@@ -22,13 +22,19 @@ body {
   }
   
   @media only screen and (min-width: 480px) {
+    body {
+      background-color: lightpink;
+    }
     input {
       width: 70%;
     }
   }
   
   @media only screen and (min-width: 992px) {
+    body {
+      background-color: aquamarine;
+    }
     input {
       width: 50%;
-    }
+     } 
   }
