@@ -1,40 +1,63 @@
 body {
-    background: #76ee9a;
     text-align: center;
-  }
-  
-  label {
-    color: rgb(0, 0, 0);
+    background-color:#8b29a1;
+}
+h1 {
+  font-weight: bold;
+  font-size: 96pt;
+  color: #ffe15b;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+  font-weight: bold;
+  font-size: 20pt;
+  color: #ffe15b;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+  color: #ffffff;
+}
+label {
+    color: rgb(255, 255, 255);
     font-size: 2em;
-  }
+}
   
-  input {
+input {
     width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    background-color: #ffffff;
+    background-color: #ffffffc5; 
   }
   
-  input[type=submit] {
-    width: 20%;
+input[type=submit] {
+    width: 80%;
+    margin-left: auto;
   }
   
-  @media only screen and (min-width: 480px) {
-    body {
-      background-color: lightpink;
+@media only screen and (min-width: 480px) {
+  body {
+      background-color: #8b29a1;
     }
-    input {
+  input {
       width: 70%;
     }
+    input[type=submit] {
+      width: 70%;
+      margin-left: auto;
+    }
   }
   
-  @media only screen and (min-width: 992px) {
-    body {
-      background-color: aquamarine;
+@media only screen and (min-width: 800px) {
+  body {
+      background-color: #8b29a1;
     }
-    input {
+  input {
       width: 50%;
      } 
+  input[type=submit] {
+      width: 50%;
+      margin-left: auto;
+    }
   }
